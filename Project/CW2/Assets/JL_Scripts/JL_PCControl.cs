@@ -29,7 +29,23 @@ public class JL_PCControl : NetworkBehaviour
 
         if (Input.GetKeyDown(KeyCode.T))
         {
-            RpcShapeshift();
+            //Determine if you're the host or not
+            if (isClient) CmdShapeshift();
+            else RpcShapeshift();
+        }
+        else if (Input.GetKeyDown(KeyCode.F))
+        {
+            CmdInteract(gameObject.transform.tag);
+        }
+
+        Move();
+    }
+
+    void ClientUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            CmdShapeshift();
         }
         else if (Input.GetKeyDown(KeyCode.F))
         {

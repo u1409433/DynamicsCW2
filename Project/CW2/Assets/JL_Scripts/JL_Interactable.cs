@@ -24,6 +24,7 @@ public class JL_Interactable : NetworkBehaviour
         JL_PCControl mSC_PC = vPlayer.GetComponent<JL_PCControl>();
         if (gameObject.name == "Pickup")
         {
+            gameObject.transform.localScale = new Vector3(2, 2, 2);
             gameObject.transform.SetParent(vPlayer.transform);
             mSC_PC.SetChild(gameObject);
         }

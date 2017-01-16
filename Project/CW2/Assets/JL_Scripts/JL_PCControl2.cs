@@ -29,7 +29,7 @@ public class JL_PCControl2 : NetworkBehaviour
 
         if (Input.GetKeyDown(KeyCode.T))
         {
-            RpcShapeshift();
+            CmdShapeshift();
         }
         else if (Input.GetKeyDown(KeyCode.F))
         {

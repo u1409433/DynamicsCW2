@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010098150836}
   - 143: {fileID: 143000011963176160}
-  - 114: {fileID: 114000012575217256}
   - 114: {fileID: 114000011267975676}
   - 114: {fileID: 114000011612436384}
+  - 114: {fileID: 114000011629111746}
   m_Layer: 0
   m_Name: PC_P2
   m_TagString: Tiny
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_SnapThreshold: 5
   m_InterpolateRotation: 1
   m_InterpolateMovement: 1
---- !u!114 &114000012575217256
+--- !u!114 &114000011629111746
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

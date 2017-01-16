@@ -1,86 +1,63 @@
-Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+Initialize engine version: 5.4.2f1 (94e3a60ee258)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon(TM) R9 270 (ID=0x6811)
-    Vendor:   ATI
-    VRAM:     2022 MB
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\DOTween.dll (this message is harmless)
-Loading S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\DOTween.dll into Unity Child Domain
-- Completed reload, in  0.142 seconds
-Platform assembly: S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: S:\1409433\MS6403 CW2\CW2\Builds\Test2_Data\Managed\System.dll (this message is harmless)
-desktop: 1680x1050 60Hz; virtual: 3360x1050 at 0,0
+Platform assembly: C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\DOTween.dll (this message is harmless)
+Loading C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\DOTween43.dll (this message is harmless)
+Loading C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\DOTween46.dll (this message is harmless)
+Loading C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\DOTween50.dll (this message is harmless)
+Loading C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\DOTween50.dll into Unity Child Domain
+- Completed reload, in  0.083 seconds
+Platform assembly: C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Joseph\Desktop\Uni Work\Year 3\MS6403\CW2\Project\CW2\Builds\Test2_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.755522 ms
+UnloadTime: 0.563525 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 261c -> priority: 1 
-  Thread -> id: 1fc -> priority: 1 
-Trying to send command for object without authority.
+  Thread -> id: 37a4 -> priority: 1 
+  Thread -> id: 3914 -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at JL_PCControl2.OnStartLocalPlayer () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.SetLocalPlayer (Int16 localPlayerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.ClientScene.OnOwnerMessage (UnityEngine.Networking.NetworkMessage netMsg) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkClient.Update () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkClient.UpdateClients () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+(Filename:  Line: -1)
 
-RPC Function RpcShapeshift called on client.
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
+NullReferenceException: Object reference not set to an instance of an object
+  at JL_PCControl2.OnStartLocalPlayer () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.SetLocalPlayer (Int16 localPlayerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.ClientScene.OnOwnerMessage (UnityEngine.Networking.NetworkMessage netMsg) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkClient.Update () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkClient.UpdateClients () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Trying to send command for object without authority.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-RPC Function RpcShapeshift called on client.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Trying to send command for object without authority.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-RPC Function RpcShapeshift called on client.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Trying to send command for object without authority.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-RPC Function RpcShapeshift called on client.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Trying to send command for object without authority.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-RPC Function RpcShapeshift called on client.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Trying to send command for object without authority.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-RPC Function RpcShapeshift called on client.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Trying to send command for object without authority.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-RPC Function RpcShapeshift called on client.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+(Filename:  Line: -1)
 
 Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}

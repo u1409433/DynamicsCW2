@@ -22,7 +22,9 @@ public class JL_NetworkManagerExtended : NetworkManager
     {
         switch (numPlayers)
         {
-            case 0: playerPrefab = spawnPrefabs[0];
+            case 0: playerPrefab = spawnPrefabs[0];                
+                break;
+            case 1: playerPrefab = spawnPrefabs[1];
                 break;
         }
 
