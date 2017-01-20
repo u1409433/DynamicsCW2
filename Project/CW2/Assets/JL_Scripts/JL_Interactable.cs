@@ -6,6 +6,7 @@ using UnityEngine.Networking;
 public class JL_Interactable : NetworkBehaviour
 {
     public GameObject GO_Interactable;
+    public Material Mat_Unusable;
 
     // Use this for initialization
     void Start()
@@ -32,6 +33,11 @@ public class JL_Interactable : NetworkBehaviour
         {
             gameObject.transform.DOMove(transform.position + new Vector3(0, 3, 0), 3);
         }
+        else if (gameObject.name == "Platform Switch")
+        {
+            GO_Interactable.SendMessage("Activate");
+            gameObject.GetComponent<Renderer>().material = Mat_Unusable;
+        }
         /*else if (gameObject.name == "Locked Door")
         {
             if (mSC_PC.mBL_KeyHeld == true)
@@ -41,16 +47,5 @@ public class JL_Interactable : NetworkBehaviour
                 Debug.Log("Door Unlocked");
             }
         }*/
-        else if (gameObject.name == "Alarm Button")
-        {
-            foreach (GameObject Stormtrooper in GameObject.FindGameObjectsWithTag("StormTrooper"))
-            {
-                Stormtrooper.SendMessage("Alarm");
-            }
-        }
-        else if (gameObject.name == "Bridge Control")
-        {
-            Debug.Log("You Win");
-        }
     }
 }
