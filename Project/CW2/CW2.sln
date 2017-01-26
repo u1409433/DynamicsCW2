@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2013
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW2.CSharp", "CW2.CSharp.csproj", "{2D79AB6B-EDFA-AED7-AF36-C65F28108082}"
 EndProject
 Global
